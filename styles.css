@@ -1,0 +1,98 @@
+/* Styles généraux */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #0f0f0f; /* Couleur de texte principale */
+    background-color: #fcfcfc; /* Couleur de fond */
+}
+
+header {
+    background-color: #333; /* Couleur de fond de l'en-tête */
+    color: #6710eaaf; /* Couleur de texte de l'en-tête */
+    padding: 20px;
+    text-align: center; /* Texte centré dans l'en-tête */
+}
+
+nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline; /* элементы навигации в одну линию */
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff; /* Couleur des liens de navigation */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333; /* Couleur des titres de section */
+}
+
+img {
+    max-width: 100%; /* адаптивность изображения */
+    height: auto;
+    display: block; /* Pour éviter les espaces sous l'image */
+    margin: 10px auto; /* Centrer l'image */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Pour fusionner les bordures de cellules */
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Bordure des cellules */
+    padding: 8px;
+    text-align: left; /* Alignement du texte dans les cellules */
+}
+
+th {
+    background-color: #333; /* Couleur de fond des en-têtes de tableau */
+    color: #fff; /* Couleur de texte des en-têtes de tableau */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments du formulaire */
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #e51c1c43; /* Couleur de fond du bouton */
+    color: #6957f3; /* Couleur de texte du bouton */
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333333; /* Couleur de fond du pied de page */
+    color: #241ae9; /* Couleur de texte du pied de page */
+    padding: 10px;
+    text-align: center; /* Texte centré dans le pied de page */
+}
+img{
+    width: 350px;
+    height: 250px;
+}
